@@ -1,0 +1,42 @@
+{
+  "name": "pennylane",
+  "owner": {
+    "name": "scaile"
+  },
+  "metadata": {
+    "description": "Connecteurs Pennylane (API v2 complète) découpés par thème métier pour réduire le nombre d'outils visibles à la fois.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pennylane-ventes",
+      "source": "./plugins/pennylane-ventes",
+      "description": "Pennylane — Ventes : clients, factures clients, devis, produits, documents commerciaux. 41 outils."
+    },
+    {
+      "name": "pennylane-achats",
+      "source": "./plugins/pennylane-achats",
+      "description": "Pennylane — Achats : fournisseurs, factures fournisseurs, demandes d'achat. 26 outils."
+    },
+    {
+      "name": "pennylane-compta",
+      "source": "./plugins/pennylane-compta",
+      "description": "Pennylane — Comptabilité : journaux, écritures, lettrage, balance, années fiscales, export FEC/AGL. 28 outils."
+    },
+    {
+      "name": "pennylane-banque",
+      "source": "./plugins/pennylane-banque",
+      "description": "Pennylane — Banque : comptes bancaires, transactions, mandats SEPA/GoCardless. 22 outils."
+    },
+    {
+      "name": "pennylane-divers",
+      "source": "./plugins/pennylane-divers",
+      "description": "Pennylane — Divers : catégories analytiques, abonnements, pièces jointes, recherche docs. 17 outils."
+    },
+    {
+      "name": "pennylane-full",
+      "source": "./plugins/pennylane-full",
+      "description": "Pennylane — Tout : API Pennylane v2 complète (tous les thèmes réunis). 134 outils."
+    }
+  ]
+}

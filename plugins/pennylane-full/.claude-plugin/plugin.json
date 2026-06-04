@@ -1,0 +1,8 @@
+{
+  "name": "pennylane-full",
+  "version": "0.1.0",
+  "description": "Pennylane — Tout : API Pennylane v2 complète (tous les thèmes réunis).",
+  "author": {
+    "name": "scaile"
+  }
+}

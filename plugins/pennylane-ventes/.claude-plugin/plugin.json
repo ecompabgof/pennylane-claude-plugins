@@ -1,0 +1,8 @@
+{
+  "name": "pennylane-ventes",
+  "version": "0.1.0",
+  "description": "Pennylane — Ventes : clients, factures clients, devis, produits, documents commerciaux.",
+  "author": {
+    "name": "scaile"
+  }
+}

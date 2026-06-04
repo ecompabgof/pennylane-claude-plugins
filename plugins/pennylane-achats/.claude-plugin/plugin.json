@@ -1,0 +1,8 @@
+{
+  "name": "pennylane-achats",
+  "version": "0.1.0",
+  "description": "Pennylane — Achats : fournisseurs, factures fournisseurs, demandes d'achat.",
+  "author": {
+    "name": "scaile"
+  }
+}

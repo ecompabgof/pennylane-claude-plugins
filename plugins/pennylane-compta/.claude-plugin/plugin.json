@@ -1,0 +1,8 @@
+{
+  "name": "pennylane-compta",
+  "version": "0.1.0",
+  "description": "Pennylane — Comptabilité : journaux, écritures, lettrage, balance, années fiscales, export FEC/AGL.",
+  "author": {
+    "name": "scaile"
+  }
+}

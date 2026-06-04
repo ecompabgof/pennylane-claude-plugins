@@ -1,0 +1,8 @@
+{
+  "name": "pennylane-banque",
+  "version": "0.1.0",
+  "description": "Pennylane — Banque : comptes bancaires, transactions, mandats SEPA/GoCardless.",
+  "author": {
+    "name": "scaile"
+  }
+}
