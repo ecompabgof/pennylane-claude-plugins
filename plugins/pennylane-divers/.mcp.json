@@ -6,7 +6,7 @@
         "${CLAUDE_PLUGIN_ROOT}/../../pennylane-mcp.bundle.mjs"
       ],
       "env": {
-        "PENNYLANE_API_TOKEN": "${PENNYLANE_API_TOKEN}",
+        "PENNYLANE_API_TOKEN": "${PENNYLANE_API_TOKEN:-}",
         "MCP_DOMAIN": "divers",
         "MCP_SCOPE": "full"
       }
