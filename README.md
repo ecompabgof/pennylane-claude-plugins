@@ -18,14 +18,17 @@
 /plugin install pennylane-ventes@pennylane
 ```
 
-Puis donner la clé Pennylane **une seule fois** dans `~/.claude/settings.json` (elle est mémorisée, tous les plugins Pennylane la réutilisent) :
+Puis configurer la clé Pennylane **en une commande** :
 
-```json
-{ "env": { "PENNYLANE_API_TOKEN": "la_clé_pennylane" } }
+```
+/pennylane-full:setup
 ```
 
-⚠️ **Claude Desktop** : environnement isolé → la clé DOIT être dans le fichier de config (pas dans le terminal).
-ℹ️ Pas de pop-up automatique : Claude ne demande pas la clé, on la pose une fois dans `settings.json`.
+Claude demande la clé (Pennylane → Paramètres → API) et l'**enregistre tout seul** dans `~/.claude/settings.json`. Une seule fois — ensuite tous les plugins Pennylane l'utilisent. *(La commande `:setup` existe dans chaque plugin, ex. `/pennylane-ventes:setup`.)*
+
+Variante manuelle : ajouter `{ "env": { "PENNYLANE_API_TOKEN": "la_clé" } }` dans `~/.claude/settings.json`.
+
+⚠️ **Claude Desktop** : environnement isolé → la clé doit être dans le fichier de config (pas dans le terminal).
 
 C'est tout. La cliente a les bons outils Pennylane, **sans rien compiler ni installer de technique**.
 
